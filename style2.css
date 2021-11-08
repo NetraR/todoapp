@@ -1,0 +1,117 @@
+body{
+    margin: auto;
+   /* text-align: center; */
+}
+.container{
+    /* margin-left: 45%; */
+    text-align: center;
+    border: 1px solid grey;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    
+}
+.one h1{
+    font-size: 70px;
+}
+.two h3{
+    
+    font-size: 30px;
+    color: grey;
+}
+.box{
+    border: 1px solid red;
+    margin: 10px;
+    border-radius: 5px;
+    width: 190px;
+    height: 300px;
+    display: inline-block;
+    margin: 20px;
+    padding: 1px;
+    box-shadow: rgb(170, 168, 170) 8px 8px 4px;
+    /* font-weight: bold; */
+    font-size: 22px;
+    /* font-style: italic; */
+    
+    
+}
+.heading1{
+    float: right;
+    color: red;
+}
+.heading2{
+    float: right;
+    color: red;
+}
+/* .one h1:before{
+    content:"";
+    display: block;
+    width:100px;
+    height: 4px;
+    left: 90px;
+    top:50%;
+    position: absolute;
+    background: #726f6f;
+}
+.one h1:after{
+    content:"";
+    display: block;
+    width:100px;
+    height: 4px;
+    left: 90px;
+    top:50%;
+    position: absolute;
+    background: #726f6f;
+} */
+.two{
+    text-align: center;
+}
+.plus{
+    margin-left: 80%;
+    margin-top: 50%;
+    color: red;
+}
+@media only screen and (max-width: 600px)  {
+    
+.one h1{
+    font-size: 70px;
+}
+.two h3{
+    
+    font-size: 30px;
+    color: grey;
+}
+.box{
+    border: 1px solid red;
+    margin: 10px;
+    border-radius: 5px;
+    width: 190px;
+    height: 300px;
+    display: inline-block;
+    margin: 20px;
+    padding: 1px;
+    box-shadow: rgb(170, 168, 170) 8px 8px 4px;
+    /* font-weight: bold; */
+    font-size: 22px;
+    /* font-style: italic; */
+    
+    
+}
+.heading1{
+    float: right;
+    color: red;
+}
+.heading2{
+    float: right;
+    color: red;
+}
+.two{
+    text-align: center;
+}
+.plus{
+    margin-left: 80%;
+    margin-top: 50%;
+    color: red;
+}
+
+}
